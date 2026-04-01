@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Inter ;
+    }
+    
+    body{ background-color: #ffffff;
+        margin: 20px;
+    }
+    .caixa-inicio{
+        background-color: cornflowerblue;
+      
+    }
+    li a{
+    
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        padding: 20px;}
+       
+ul{
+ display: flex;
+ justify-content: row;
+ align-items: center;
+}
+          
+li{ 
+list-style: none;
+}
+          
+nav{         
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+background-color: #ffffff;
+}
+
+.botao-login{
+    background-color: orangered;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 100px;
+   width: 80px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.btn-pesquisa{
+    color: darkgray;
+}
+.barra-pesquisa{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
