@@ -13,7 +13,7 @@ export class Cards {
   // 2. A lista de bagagens no lugar certo
   diferenciais = [
     {
-      icone: '/imagens/logo-1.svg fill.png,',
+      icone: '/imagens/ticket.svg.png,',
       titulo: 'Ultimate flexibility',
       descricao: 'You re in control, with free cancellation...'
     },

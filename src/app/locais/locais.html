@@ -1,1 +1,17 @@
-<p>locais works!</p>
+<section class="Trending-destinations">
+    <h2 class="main-title">{{ tituloMaior }}</h2>
+
+    <div class="paises-destinos">
+         @for (item of diferenciais; track item.titulo) {
+            <div class="destinos-card"></div>
+
+             <img [src]="item.imagem" [alt]="item.titulo" class="destino-icon">
+             <h3 class="feature-title"> {{ item.titulo}}</h3>
+                <p class="feature-description"> {{item.descricao}}</p>
+
+
+         }
+    </div>
+ 
+
+</section>
